@@ -1,0 +1,206 @@
+body{
+            margin:0px;
+        }
+        header{
+            background-color: black;
+            padding:10px;
+            width:100%;
+        }
+        header a{
+            color:white;
+            text-decoration:none;
+            margin-left:40px;
+        }
+        header a:first-of-type{
+            margin-left:0px;
+        }
+        header a:hover{
+            color:#000000;
+            background-color:#ffffff;
+            
+        }
+        #header_links_box{
+            width:50%;
+            margin:auto;
+            display:inline-block;
+            text-align:center;
+        }
+        .form_box{
+            width:54%;
+            margin:auto;
+            margin-top:40px;
+        }
+        .form_box input{
+            width:100%;
+            margin-bottom:10px;
+            height:27px;
+        }
+        .form_box textarea{
+            width:91%;
+            height:70px;
+        }
+        .table_box{
+            width:74%;
+            margin:auto;
+            margin-top:40px;
+        }
+        .buttons{
+            background-color:cornflowerblue;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;
+        }
+        
+        #posts_box{
+            width:54%;
+            margin:auto;
+            margin-top: 40px;
+            min-height:400px;
+            padding: 40px;
+            
+        }
+        .blog_post_link{
+            text-decoration:none;
+        }
+        #logo_box{
+            color:#ffffff;
+            width:20%;
+            font-size:20px;
+            display:inline-block;
+        }
+        #add_button{
+            background-color: blue;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;    
+        }
+        #view_button{
+            background-color: green;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;    
+        }
+        .buttons:hover{
+            cursor:pointer;    
+        }
+        .update_button{
+            width:67px;
+            background-color:orange;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;
+            text-decoration:none;
+        }
+        .delete_button{
+            width:67px;
+            background-color:red;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;
+            text-decoration:none;
+        }
+        #adminlogin{
+            background-color:cornflowerblue;
+            color:#ffffff;
+            padding:10px 14px;
+            border:none;
+        }
+        h2{
+            color:red;
+            list-style: none;
+        }
+
+        #admin_header_box{
+            display:inline-block;    
+            width:25%;
+            text-align:right;
+        }    
+
+        #online_dot{
+            display:inline-block;
+            background-color: lightgreen;
+            height:10px;width:10px;
+            border-radius:100%;    
+        }
+        .halfinput{
+            width:44% !important;
+        }
+        .dropdown{
+            padding:7px;
+            width:46% !important;
+        }
+        #crud_add_box{
+            display:none;
+        }
+
+        #crud_update_box{
+            display:none;
+        }
+
+        .mytable{
+            width: 100%;
+            border-collapse: collapse;
+            overflow-x:auto;
+        }
+        .mytable th,td{
+            border:1px solid grey;
+            padding:7px 14px;
+        }
+        #parent{
+            width:100%;
+        }
+        @media only screen and (max-width: 600px){
+            .form_box{
+                width:80%;
+                margin:auto;
+                margin-top:40px;
+            }
+            #posts_box{
+                width:100%;
+                margin:auto;
+                margin-top:40px;
+            }
+            #logo_box{
+                color:#ffffff;
+                width:100%;
+                font-size:20px;
+                display:inline-block;
+            }
+            #header_links_box{
+                width:100%;
+                display:block;
+                text-align: center;    
+            }
+            header a{
+                color:white;
+                text-decoration:none;
+                margin-left:10px;
+                font-size: 12px;
+                
+            }
+
+            #admin_header_box{
+                display:inline-block;    
+                width:100%;
+                text-align:center;
+            }    
+
+            #online_dot{
+                display:inline-block;
+                background-color: lightgreen;
+                height:10px;width:10px;
+                border-radius:100%;    
+            }
+            .mytable{
+                width: 100%;
+                border-collapse: collapse;
+                overflow-x:auto;
+                
+            }
+            .mytable th,td{
+                border:1px solid grey;
+                padding:2px 4px;
+
+            }
+
+        }
